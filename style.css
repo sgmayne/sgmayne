@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cabin|Roboto');
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Anton';
+
+}
+
+/*navbar*/
+.navbar-brand {
+    font-family: 'Cabin';
+    font-size: 35px;
+    color:brown !important;
+}
+
+.navbar img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav-link {
+    font-size: 15px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto';
+}
+
+.nav-link:hover {
+    color: brown !important;
+}
+
+.active .nav-link {
+    color: orangered !important;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+
+}
+
+.menu-right-btn:hover {
+    color: white;
+    background-color: brown;
+}
+
+/*main section*/
+.site-content {
+    background-image: url('images/editedbackhoe.png');
+    background-attachment: fixed;
+    background-size: cover;
+  
+    
+}
+
+.site-title, .site-desc {
+    color: white;
+    font-family: 'Roboto';
+   
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc{
+    font-size: 34px;
+    
+}
+
+.site-btn1{
+    /*margin-left: 20%;*/
+    background-color: black;
+    color: white;
+}
+
+.site-btn2{
+    background-color: white;
+}
+
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 70%;
+}
+
+/*Section1*/
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+
+.section-1 .heading-2 {
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.section-1 .card-text, .para-1{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.section-1{
+    margin-bottom:3%;
+}
+
+.card {
+    width: 20rem;
+}
+/*section-2*/
+
+.section-2 .container-fluid {
+    background-image: url('images/stock-photo-excavation-mashine-works-in--2307433.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+    margin-top: 15%;
+    margin-bottom: 4%;
+    font-family: 'Roboto';
+    /*width: 80%;*/
+    color: brown;
+    padding-left: 20px;
+}
+.section-2 iframe{
+    margin-top: 5%;
+}
+
+.section-2 .para {
+    width:90%;
+    font-family: 'Roboto';
+    color:black;
+    text-decoration: none;
+    /*margin-bottom: 7%;*/
+    font-size: 25px;
+    padding-left:20px;
+}
+
+
+
+/*section-3*/
+.section-3 {
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+
+.section-3 i{
+    color: brown;
+}
+
+.section-3 p{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/*section-4*/
+.section-4 {
+    margin-top: 8%;
+    }
+
+    .section-4 .row .col-md-7, .col-md-5{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .section-4 a{
+        color: brown;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .section-4 .para-1{
+        color: white;
+        font-family: 'Cabin';
+        margin-top: 7%;
+        font-size: 20px;
+    }
+
+    /*section-5*/
+
+        .social i {
+        color: white;
+        font-size: 20px;
+    }
+
+    .section- .top {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+
+    .copyright p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    /*for tablets*/
+    @media screen and (max-width: 768px) {
+        .section-1 .card{
+            width: 14rems;
+        }
+
+        .section-4 .col-md-7 img{
+            width: 350px;
+        }
+
+        
+
+
+    }
+
+    /*for phones*/
+
+    @media screen and (max-width: 320px) {
+        .site-content .site-title {
+            font-size: 30px;
+            padding-left: 15%;
+        }
+        .site-content .site-btn2{
+            display:none;
+        }
+
+        .site-content .site-btn1{
+            margin-left: 15%;
+        }
+
+        .section-1 .heading-1, .section-1 .heading-2{
+            font-size: 25px;
+        }
+
+        .section-1 .col-md-4 {
+            padding: 5%;
+            /*margin-left: 18%;*/
+        }
+
+        .section-1 .card {
+            width: 15rem;
+            
+        }
+
+        #contactus .heading-1, .para {
+            font-size: 15px;
+        }
+
+        .section-4 .col-md-5{
+            padding: 0% 15%;
+        }
+
+        
+}
